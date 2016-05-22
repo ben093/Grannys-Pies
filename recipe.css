@@ -1,0 +1,44 @@
+/*
+	COMMENTS
+	Ben Borgstede
+	CSC 365
+	September 14, 2014
+	EXTRA FEATURES: Favicon and Spaced Headings(h1/h2)
+*/
+a{
+	color: violet;
+}
+body{
+	background-color: linen;
+}
+h1{
+	background-color: #D0D0D0;
+	color:olive;
+	letter-spacing:0.25em;
+	overflow:auto;
+	padding:10px;
+	text-align:center;
+	text-decoration: underline;
+}	
+h2{
+	color: olive;
+	background-color: #D0D0D0;
+	letter-spacing:0.25em;
+	overflow:auto;
+	padding:5px;
+	text-align: left;
+	text-decoration: underline;
+	text-transform: uppercase;
+}	
+#home{
+	margin:10px;
+}
+p.favorite span{
+	text-decoration: line-through;
+}
+ul.comments li{
+	background-color: #FFFFA8;
+	font-style: italic;
+	list-style-type: none;
+	margin: 15px;
+}
